@@ -10,7 +10,7 @@ function App() {
     <div>
       <p>Score: { value }</p>
       <button onClick={() => dispatch(increment())}>+ 1</button>
-      <button onClick={() => dispatch(decrement())}>- 2</button>
+      <button onClick={() => dispatch(decrement())}>- 1</button>
       <button onClick={() => dispatch(incrementByAmount(5))}>+5</button>
       <br></br>
       <button onClick={() => dispatch(decrementByAmount(5))}>-5</button>
